@@ -1,0 +1,8 @@
+#mediaGridPic {
+	margin-top:15px;
+	margin-bottom:10px;
+	
+  @include opacity(0.5);
+ 
+  @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
+}
