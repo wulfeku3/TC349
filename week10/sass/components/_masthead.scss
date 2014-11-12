@@ -1,0 +1,9 @@
+.masthead {
+	background: #CEB0EE;
+	color: #574E72;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	
+  @include background-image(linear-gradient(white, #aaaaaa));
+}

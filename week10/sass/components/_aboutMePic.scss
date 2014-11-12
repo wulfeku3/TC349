@@ -1,0 +1,19 @@
+#aboutMePic {
+	float: left;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin:0;
+	
+	@include border-radius(25px);
+	
+	@include transition-property(all);
+	@include transition-duration(3s);
+	
+	&:hover {
+	width: 200px;
+	height:200px;
+	
+  @include opacity(0.2);
+	}
+}
